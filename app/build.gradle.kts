@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -48,6 +49,9 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -81,12 +85,17 @@ dependencies {
     implementation("com.google.code.gson:gson:2.8.9")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
+    implementation("io.reactivex.rxjava2:rxandroid:2.1.1")
+    implementation("io.reactivex.rxjava2:rxjava:2.2.19")
+    implementation("io.reactivex.rxjava2:rxkotlin:2.4.0")
+    implementation("androidx.room:room-rxjava2:2.5.2")
+
     implementation("androidx.lifecycle:lifecycle-common-java8:2.4.1")
 
     implementation("androidx.work:work-runtime:2.7.1")
     implementation("androidx.work:work-runtime-ktx:2.7.1")
 
-    implementation("androidx.room:room-runtime:2.4.2")
-    implementation("androidx.room:room-ktx:2.4.2")
-    kapt("androidx.room:room-compiler:2.4.2")
+    implementation("androidx.room:room-runtime:2.5.2")
+    implementation("androidx.room:room-ktx:2.5.2")
+    kapt("androidx.room:room-compiler:2.5.2")
 }
