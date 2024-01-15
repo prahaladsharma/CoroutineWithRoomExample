@@ -3,23 +3,24 @@ package com.coroutinewithroom
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
-import base.BaseActivity
+import com.coroutinewithroom.base.BaseActivity
 import com.coroutinewithroom.databinding.ActivityLayoutBinding
-import fromHtml
-import setGone
-import setVisible
-import toast
+import com.coroutinewithroom.utils.fromHtml
+import com.coroutinewithroom.utils.setGone
+import com.coroutinewithroom.utils.setVisible
+import com.coroutinewithroom.utils.toast
+
 
 class RoomAndCoroutinesActivity : BaseActivity() {
 
 
     override fun getToolbarTitle(): String {
-        TODO("Not yet implemented")
+        return "#8 Room and Coroutines"
     }
 
     private val binding by lazy { ActivityLayoutBinding.inflate(layoutInflater) }
 
-    private val viewModel: RoomViewModel by viewModels {
+    private val viewModel: RoomAndCoroutinesViewModel by viewModels {
         ViewModelFactory(
             mockApi(),
             AndroidVersionDatabase.getInstance(applicationContext).androidVersionDao()

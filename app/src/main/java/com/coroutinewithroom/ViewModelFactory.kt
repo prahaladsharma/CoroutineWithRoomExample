@@ -2,7 +2,7 @@ package com.coroutinewithroom
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import mock.MockApi
+import com.coroutinewithroom.mock.MockApi
 
 class ViewModelFactory(private val api: MockApi, private val database: AndroidVersionDao) :
     ViewModelProvider.Factory {

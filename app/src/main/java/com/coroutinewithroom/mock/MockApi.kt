@@ -1,11 +1,11 @@
-package mock
+package com.coroutinewithroom.mock
 
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
-import utils.MockNetworkInterceptor
+import com.coroutinewithroom.utils.MockNetworkInterceptor
 
 interface MockApi {
 

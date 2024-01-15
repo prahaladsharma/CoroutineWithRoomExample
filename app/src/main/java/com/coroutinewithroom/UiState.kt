@@ -1,6 +1,6 @@
 package com.coroutinewithroom
 
-import mock.AndroidVersion
+import com.coroutinewithroom.mock.AndroidVersion
 
 sealed class UiState {
     sealed class Loading : UiState() {

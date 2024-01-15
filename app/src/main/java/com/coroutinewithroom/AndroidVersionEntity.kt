@@ -2,7 +2,7 @@ package com.coroutinewithroom
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import mock.AndroidVersion
+import com.coroutinewithroom.mock.AndroidVersion
 
 @Entity(tableName = "androidversions")
 data class AndroidVersionEntity(@PrimaryKey val apiLevel: Int, val name: String)

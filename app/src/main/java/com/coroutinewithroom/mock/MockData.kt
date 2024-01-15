@@ -1,4 +1,4 @@
-package mock
+package com.coroutinewithroom.mock
 
 data class AndroidVersion(val apiLevel: Int, val name: String)
 

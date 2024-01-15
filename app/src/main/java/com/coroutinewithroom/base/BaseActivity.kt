@@ -1,10 +1,11 @@
-package base
+package com.coroutinewithroom.base
 
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.coroutinewithroom.R
-import setGone
+import com.coroutinewithroom.utils.setGone
+
 
 abstract class BaseActivity : AppCompatActivity() {
     abstract fun getToolbarTitle(): String

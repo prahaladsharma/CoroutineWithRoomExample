@@ -1,9 +1,9 @@
 package com.coroutinewithroom
 
 import com.google.gson.Gson
-import mock.createMockApi
-import mock.mockAndroidVersions
-import utils.MockNetworkInterceptor
+import com.coroutinewithroom.mock.createMockApi
+import com.coroutinewithroom.mock.mockAndroidVersions
+import com.coroutinewithroom.utils.MockNetworkInterceptor
 
 fun mockApi() =
     createMockApi(

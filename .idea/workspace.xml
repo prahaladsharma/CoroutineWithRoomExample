@@ -10,29 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6bf0a4d-1f82-4168-b4fa-f8a7d656090c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/base/UseCase.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/RoomViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/utils/Extension.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back_white.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_green_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_clear_red_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/base/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/base/BaseActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/base/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/base/BaseViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/base/UseCase.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/base/UseCase.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/AndroidVersionDao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/AndroidVersionDao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/AndroidVersionEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/AndroidVersionEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/MockApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/MockApi.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/RoomAndCoroutinesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/RoomAndCoroutinesActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/RoomAndCoroutinesViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/RoomAndCoroutinesViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/RoomViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/UiState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/UiState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/ViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/ViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mock/MockApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/mock/MockApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/mock/MockData.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/mock/MockData.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/utils/Extension.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/utils/Extension.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/utils/MockNetworkInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/coroutinewithroom/utils/MockNetworkInterceptor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\krishnaji\.android\avd\Resizable_Experimental_API_33.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[65e602f6]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704814429994</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Room DB Setup">
+      <created>1704991707538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704991707538</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +202,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Setup" />
+    <MESSAGE value="Room DB Setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Room DB Setup" />
   </component>
 </project>

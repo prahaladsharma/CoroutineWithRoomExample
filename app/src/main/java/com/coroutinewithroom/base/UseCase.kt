@@ -1,4 +1,4 @@
-package base
+package com.coroutinewithroom.base
 
 import android.os.Parcelable
 import androidx.appcompat.app.AppCompatActivity
